@@ -60,3 +60,11 @@ This system demonstrates:
 ## 🎯 Purpose
 
 This project is developed as part of a Distributed Systems course to demonstrate practical implementation of a real-world cloud-native distributed architecture using modern serverless technologies.
+
+## Development History
+
+This project was originally developed and maintained in a private Gitea repository during development.
+
+The GitHub repository is a migrated/public version prepared for project submission.
+
+The original development history and timeline are preserved in Gitea.
