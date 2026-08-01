@@ -64,7 +64,37 @@ This project is developed as part of a Distributed Systems course to demonstrate
 ## Development History
 
 This project was originally developed and maintained in a private Gitea repository during development.
-
 The GitHub repository is a migrated/public version prepared for project submission.
-
 The original development history and timeline are preserved in Gitea.
+
+## Requirements
+
+Before running the project, make sure you have installed:
+- Node.js
+- npm or yarn
+- Java Development Kit (JDK)
+- Android Studio
+- Android SDK
+- Android emulator or an Android device
+
+### Installation
+
+Install project dependencies:
+
+```bash
+npm install
+```
+### Running the application
+
+```bash
+npx expo run:android
+```
+
+*The application will be built and launched on the connected Android emulator or physical Android device.
+
+## Expo Workflow
+
+This project uses the Bare Expo workflow instead of the standard managed Expo workflow.
+Because of native dependencies, the application cannot be run using Expo Go and requires a native Android build.
+
+
