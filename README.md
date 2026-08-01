@@ -97,4 +97,9 @@ npx expo run:android
 This project uses the Bare Expo workflow instead of the standard managed Expo workflow.
 Because of native dependencies, the application cannot be run using Expo Go and requires a native Android build.
 
+### Recommended Testing Device
+
+Due to the size and resource requirements of the application, running it on an Android emulator may result in slow performance or increased build times.
+For the best experience, it is recommended to use a physical Android device connected through USB debugging.
+
 
