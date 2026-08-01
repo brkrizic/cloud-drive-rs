@@ -1,8 +1,8 @@
-# cloud-drive-rs
-Cloud-native distributed file storage system built with a serverless AWS architecture. The system uses React frontend and REST APIs via API Gateway, with Lambda functions, S3 storage, DynamoDB metadata, and CloudFront for global content delivery. Demonstrates microservice-based distributed system design.
+# Stashr
+Stashr distributed file storage system built with a serverless AWS architecture. The system uses React frontend and REST APIs via API Gateway, with Lambda functions, S3 storage, DynamoDB metadata, and CloudFront for global content delivery. Demonstrates microservice-based distributed system design.
 
 
-# CloudDrive – Distributed Cloud Storage System
+# Stashr – Distributed Cloud Storage System
 
 ## 📌 Overview
 
@@ -12,7 +12,7 @@ CloudDrive is a cloud-native distributed file storage system built using a serve
 
 The system is built on a serverless microservice architecture using AWS cloud services:
 
-* React frontend (client layer)
+* React Native frontend (client layer)
 * AWS API Gateway (REST communication layer)
 * AWS Lambda (business logic / compute layer)
 * Amazon S3 (distributed object storage)
@@ -50,7 +50,7 @@ This system demonstrates:
 
 ## 🧱 Tech Stack
 
-* React (Frontend)
+* React Native (Frontend)
 * AWS Lambda (Backend compute)
 * AWS API Gateway (REST API)
 * Amazon S3 (File storage)
@@ -60,3 +60,46 @@ This system demonstrates:
 ## 🎯 Purpose
 
 This project is developed as part of a Distributed Systems course to demonstrate practical implementation of a real-world cloud-native distributed architecture using modern serverless technologies.
+
+## Development History
+
+This project was originally developed and maintained in a private Gitea repository during development.
+The GitHub repository is a migrated/public version prepared for project submission.
+The original development history and timeline are preserved in Gitea.
+
+## Requirements
+
+Before running the project, make sure you have installed:
+- Node.js
+- npm or yarn
+- Java Development Kit (JDK)
+- Android Studio
+- Android SDK
+- Android emulator or an Android device
+
+### Installation
+
+Install project dependencies:
+
+```bash
+npm install
+```
+### Running the application
+
+```bash
+npx expo run:android
+```
+
+*The application will be built and launched on the connected Android emulator or physical Android device.
+
+## Expo Workflow
+
+This project uses the Bare Expo workflow instead of the standard managed Expo workflow.
+Because of native dependencies, the application cannot be run using Expo Go and requires a native Android build.
+
+### Recommended Testing Device
+
+Due to the size and resource requirements of the application, running it on an Android emulator may result in slow performance or increased build times.
+For the best experience, it is recommended to use a physical Android device connected through USB debugging.
+
+
