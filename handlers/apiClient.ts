@@ -18,7 +18,7 @@ export type ApiError = {
 // =======================
 
 export const api = axios.create({
-  baseURL: "https://nmfl7csa20.execute-api.eu-north-1.amazonaws.com",
+  baseURL: process.env.AWS_BASE_URL,
   timeout: 10000,
 });
 
