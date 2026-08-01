@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-stashrdesktop-dev-46329-authRole",
+      "UnauthRoleArn": "arn:aws:iam::035384092524:role/amplify-stashrdesktop-dev-46329-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::035384092524:role/amplify-stashrdesktop-dev-46329-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-stashrdesktop-dev-46329-deployment",
+      "UnauthRoleName": "amplify-stashrdesktop-dev-46329-unauthRole",
+      "StackName": "amplify-stashrdesktop-dev-46329",
+      "StackId": "arn:aws:cloudformation:eu-north-1:035384092524:stack/amplify-stashrdesktop-dev-46329/ed501340-ca39-11f0-9eda-067bc2620e3b",
+      "AmplifyAppId": "doh1k62xowa3x"
+    },
+    "categories": {
+      "auth": {
+        "stashrdesktop5ebf13b4": {}
+      },
+      "storage": {
+        "userFiles": {}
+      }
+    }
+  }
+}

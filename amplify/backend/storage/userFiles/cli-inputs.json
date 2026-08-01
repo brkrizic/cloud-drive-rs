@@ -1,0 +1,14 @@
+{
+  "resourceName": "userFiles",
+  "policyUUID": "e07faeb9",
+  "bucketName": "stashr-cloud-storage-2025",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
