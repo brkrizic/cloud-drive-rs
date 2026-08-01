@@ -1,8 +1,8 @@
-# cloud-drive-rs
-Cloud-native distributed file storage system built with a serverless AWS architecture. The system uses React frontend and REST APIs via API Gateway, with Lambda functions, S3 storage, DynamoDB metadata, and CloudFront for global content delivery. Demonstrates microservice-based distributed system design.
+# Stashr
+Stashr distributed file storage system built with a serverless AWS architecture. The system uses React frontend and REST APIs via API Gateway, with Lambda functions, S3 storage, DynamoDB metadata, and CloudFront for global content delivery. Demonstrates microservice-based distributed system design.
 
 
-# CloudDrive – Distributed Cloud Storage System
+# Stashr – Distributed Cloud Storage System
 
 ## 📌 Overview
 
@@ -12,7 +12,7 @@ CloudDrive is a cloud-native distributed file storage system built using a serve
 
 The system is built on a serverless microservice architecture using AWS cloud services:
 
-* React frontend (client layer)
+* React Native frontend (client layer)
 * AWS API Gateway (REST communication layer)
 * AWS Lambda (business logic / compute layer)
 * Amazon S3 (distributed object storage)
@@ -50,7 +50,7 @@ This system demonstrates:
 
 ## 🧱 Tech Stack
 
-* React (Frontend)
+* React Native (Frontend)
 * AWS Lambda (Backend compute)
 * AWS API Gateway (REST API)
 * Amazon S3 (File storage)
