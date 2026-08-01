@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Stashr",
+    "slug": "stashr",
+    "version": "1.0.0",
+    "web": {
+      "favicon": "./assets/stashrIcon.png"
+    },
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-video",
+      "react-native-video"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/stashrIcon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/stashrIcon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.bruno1999.stashr"
+    }
+  }
+}
